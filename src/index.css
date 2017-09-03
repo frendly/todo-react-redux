@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#root {
+  width: 300px;
+  height: 500px;
+  padding: 10px 20px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+.addform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addform input {
+  width: 85%;
+}
+
+.addform button {
+  cursor: pointer;
+}
+
+.list {
+  padding: 0;
+}
+
+.list__item {
+  list-style: none;
+}
