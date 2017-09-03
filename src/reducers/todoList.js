@@ -1,15 +1,20 @@
 const initialState = [
   {
-    id: 1,
-    name: 'test',
+    id: 0,
+    name: 'add react-router',
     checked: false
+  },
+  {
+    id: 1,
+    name: 'install react',
+    checked: true
   }, {
     id: 2,
-    name: 'test02',
+    name: 'install redux',
     checked: true
   }, {
     id: 3,
-    name: 'test3',
+    name: 'install create-react-app',
     checked: true
   }
 ];
